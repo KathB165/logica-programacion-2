@@ -14,12 +14,12 @@ function Kelvin (gCelcius){
 
 switch(opc){
     case 'f':
-        document.write(`${gCelcius} grados Celcius es igual a: ${Fahrenheit(gCelcius)} grados Fahrenheit`);
+        console.log(`${gCelcius} grados Celcius es igual a: ${Fahrenheit(gCelcius)} grados Fahrenheit`);
         break;
     case 'k':
-        document.write(`${gCelcius} grados Celcius es igual a: ${Kelvin(gCelcius)} grados Kelvin`);
+        console.log(`${gCelcius} grados Celcius es igual a: ${Kelvin(gCelcius)} grados Kelvin`);
         break;
         default:
-            document.write("Error ingrese k o f");    
+        console.log("Error ingrese k o f");    
 }
 
